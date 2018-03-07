@@ -1,0 +1,11 @@
+{
+  "name": "mk-qrcode",
+  "version": "1.0.0",
+  "description": "QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM. QRCode.js has no dependencies.",
+  "main": "./src/index.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jack-in",
+  "license": "MIT"
+}
