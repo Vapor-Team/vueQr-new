@@ -1,6 +1,6 @@
 {
   "name": "vueqr-new",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "vue二维码组件,方便快捷,你会爱上它！",
   "main": "index.vue",
   "repository": {
@@ -18,6 +18,9 @@
   "homepage": "https://github.com/Jack-In/vueQr-new.git",
   "author": "jack-in",
   "license": "MIT",
+  "dependencies": {
+    "qrcode": "^1.2.0"
+  },
   "devDependencies": {
     "qrcode": "^1.2.0"
   }
