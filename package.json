@@ -1,15 +1,24 @@
 {
-  "name": "mk-qrcode",
-  "version": "1.0.0",
-  "description": "QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM. QRCode.js has no dependencies.",
-  "main": "./src/index.vue",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "jack-in",
-  "license": "MIT",
+  "name": "vueqr-new",
+  "version": "0.0.1",
+  "description": "vue二维码组件,方便快捷,你会爱上它！",
+  "main": "index.vue",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jack-In/qr-vue.git"
+    "url": "https://github.com/Jack-In/vueQr-new.git"
+  },
+  "scripts": {
+    "dev": "npm install qrcode@1.2.0 --save-dev"
+  },
+  "keywords": [
+    "vue",
+    "qr",
+    "qrcode"
+  ],
+  "homepage": "https://github.com/Jack-In/vueQr-new.git",
+  "author": "jack-in",
+  "license": "MIT",
+  "devDependencies": {
+    "qrcode": "^1.2.0"
   }
 }
