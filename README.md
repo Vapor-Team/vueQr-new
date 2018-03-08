@@ -4,17 +4,21 @@
   [![npm](https://img.shields.io/npm/dt/vueqr-new.svg?style=flat-square)](https://www.npmjs.com/package/vueqr-new)
   [![npm](https://img.shields.io/npm/l/vueqr-new.svg?style=flat-square)](https://github.com/Jack-In/vueQr-new/master/license)
 
-> ### Usage
+> ### 快速安装
   ### install
-  ```shell
-  npm install --save qrcode vueqr-new
+  快速添加 `vueqr-new` 组件到 app 中
+  ```bash
+  npm install --save vueqr-new
   ```
   ### components
   ```html
-  <vue-qr :config="config" :text="demo"></vue-qr>
-  ```
-  ### option
-  ```javascript3
+  <template>
+    <div>
+      <vue-qr :config="config" :text="text"></vue-qr>
+    </div>
+  </template>
+  <script>
+  import vueQr from 'vueqr-new';
   const config = {
     // 容错等级
     errorCorrectionLevel: 'H',
@@ -38,7 +42,28 @@
     border: '1px solid #ccc'
     }
   }
+  export default {
+    data() {
+      return {
+        text: 'https://example.com',
+        config: config
+      }
+    },
+    components: {
+      vueQr
+    }
+  }
+  </script>
   ```
+## Component props
+
+| 属性 | 类型 | 属性描述 |
+|------|------|--------------|---------|
+| config | Object | qrcode option |
+| text | String | qrcode value |
+
+## 参考代码
+["node-qrcode"](https://github.com/zpao/qrcode.react)
 > ### License
 
 [MIT](https://github.com/Jack-In/vueQr-new/blob/master/LICENSE)
