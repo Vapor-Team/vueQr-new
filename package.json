@@ -1,6 +1,6 @@
 {
   "name": "vueqr-new",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "vue二维码组件,方便快捷,你会爱上它！",
   "main": "index.vue",
   "repository": {
