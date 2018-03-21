@@ -1,6 +1,6 @@
 <template>
   <div ref="qr" class="qrBox">
-    <img :src="src" alt="demo">
+    <img :src="src">
   </div>
 </template>
 
@@ -65,6 +65,7 @@ export default {
 <style>
 .qrBox img {
   vertical-align: top;
-  width: 128px;
+  width: 100%;
+  height: 100%;
 }
 </style>

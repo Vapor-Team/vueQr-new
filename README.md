@@ -17,8 +17,11 @@
       <vue-qr :config="config" :text="text"></vue-qr>
     </div>
   </template>
+  // 入口文件
+    使用Vue.use()来注册该组件库
+    import JackUI from 'vueqr-new'
+    Vue.use(JackUI)
   <script>
-  import vueQr from 'vueqr-new';
   const config = {
     // 容错等级
     errorCorrectionLevel: 'H',
@@ -48,9 +51,6 @@
         text: 'https://example.com',
         config: config
       }
-    },
-    components: {
-      vueQr
     }
   }
   </script>
